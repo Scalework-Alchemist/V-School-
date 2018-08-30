@@ -1,0 +1,17 @@
+body{
+    background-color:black
+    
+}
+
+h1{
+    
+    color: red
+}
+li{
+    color:red
+}
+
+.friend{
+    margin: 15px;
+    padding: 15px;
+}
