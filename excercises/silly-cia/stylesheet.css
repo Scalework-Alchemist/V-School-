@@ -1,0 +1,28 @@
+.bigbold{
+    color:darkgreen;
+    font-family: Georgia;
+    margin:auto;
+    text-align: center;
+}
+.smallbold{
+    font-family: Georgia;
+    text-align: center;
+
+}
+.mainpara{
+    line-height: 25px;
+    text-justify: left;
+
+}
+.mainImage{
+    float: left;
+    block-size: 200px;
+    padding: 15px;
+    margin:
+}
+.tagme{
+    text-decoration-line:none;
+}
+.youMight{
+    text-transform: capitalize;
+}

@@ -1,0 +1,86 @@
+
+
+*{
+    background:white;
+    box-sizing: border-box;
+    font-size: 0;
+    margin:0;
+    padding: 0;
+    
+}   
+body{
+    margin:5%;
+}
+
+.container * {
+    border:2px solid white;
+}
+.one {
+    background: #F5C6D6;
+    height: 25%;
+    border-radius: 25px 25px 0 0;
+   
+}
+.two{
+   background: #EE2E84;
+   height: 25%;
+   
+}
+.three{
+    background:#EE2E84;
+    height: 25%;
+    
+}
+.four{
+    background:#EE2E84;
+    height: 25%;
+    
+}
+.five{
+    background:#EE2E84;
+    height: 25%;
+    
+}
+.six{
+    background:#85CFD8;
+    height: 25%;
+    
+}
+.seven{
+    background:#85CFD8;
+    height: 25%;
+    
+}
+.eight{
+    background:#E76E34;
+    height: 25%;
+   
+}
+.nine{
+    background:#8DC63F;
+    height: 25%;
+    border-radius: 0 0 25px 25px;
+   
+}
+
+ 
+@media (min-width: 768px){
+    .two{
+        width: 25%;
+        display: inline-block;
+    }
+    .six{
+        width: 50%;
+        display: inline-block;
+    }
+    .eight{
+        width: 75%;
+        display: inline-block;
+        border-radius: 0 0 0 25px;
+    }
+    .nine{
+        width: 25%;
+        display: inline-block;
+        border-radius: 0 0 25px 0;
+    }
+}

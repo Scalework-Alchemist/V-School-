@@ -1,0 +1,40 @@
+
+*{
+ 
+}
+body{
+    background-color: bisque;
+    margin:0;
+}
+.logo{
+    max-height:  45px;
+    max-width:  50px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    border-bottom: 5px solid gold;
+    background:black;
+    color: white;
+    padding: 0;
+  }
+  .container > li{
+      flex:1;
+  }
+  .search {
+    flex: 1;
+  }
+.story{
+    width: 25%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+  
+header{
+    border-bottom:5px solid gold;
+    
+}

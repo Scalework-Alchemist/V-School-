@@ -1,0 +1,15 @@
+@media(max-width: 1000px) {
+  
+.container {
+    flex-wrap: wrap-reverse;
+    width:100%;
+}
+
+.container > li {
+    flex-basis: 100%;
+}
+main{
+    display:grid;
+    width: 100%;
+}
+}

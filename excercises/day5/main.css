@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    background: grey;
+}
+.france{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    
+    width: 300px;
+	height: 200px;
+	background: green;
+}
+.blue{
+    display: grid;
+    width: 100px;
+	height: 200px;
+	background:blue;
+}
+.white{
+    width: 100px;
+    height:200px;
+    background: white;
+}
+.red{
+   
+    background: red;
+}
+.germany{
+    margin-top: .5px;
+    width: 300px;
+	height: 200px;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+
+}
+.black{
+    background: black;
+}
+.yellow{
+    background: yellow;
+}
+
+.madagascar{
+    margin-top:.5px;
+    display: grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns: 33% 66.6% ;
+    width:300px;
+    height:200px;
+}
+.green{
+    background: green;
+
+}

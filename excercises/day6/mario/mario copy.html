@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="mario.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body background="https://res.cloudinary.com/teepublic/image/private/s--qCX6bHaN--/t_Preview/b_rgb:36538b,c_limit,f_jpg,h_630,q_90,w_630/v1503410617/production/designs/1842959_1.jpg">
+
+    <header>
+        <ul class="navbar">
+            <li>Mario Pest Control</li>
+        </ul>
+    </header>
+    <main>
+        <div class="bountyBoard">
+            <div class="pest" id=goombas>Goombas
+                <div class="pestTitle"></div>
+                <div class="pestImg"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHXXZjn8nnJ2yDVEkVUORKAf_62hWAp3zSno4DzP44Y4hetxghdg
+                        height=100px width=100px></div>
+                <label for="price"></label>
+                <form name=goombas>
+                    Amount K.I.A:<br>
+                    <input type="number" name="quantity" min="0" max="100" placeholder="0">
+                </form>
+            </div>
+            <div class="pest" id="bobOmb">Bob-ombs
+                <div class="pestTitle"></div>
+                <div class="pestImg"><img src=https://pre00.deviantart.net/9279/th/pre/i/2015/015/3/9/bob_omb_battlefield_by_doctor_g-d8dywg1.png
+                        height=100px width=100px></div>
+                <label for="price"></label>
+                <form name="bobOmb">
+                    Amount K.I.A:<br>
+                    <input type="number" name="quantity" min="0" max="100" placeholder="0">
+                </form>
+            </div>
+            <div class="pest" cheep>Cheep
+                <div class="pestTitle"></div>
+                <div class="pestImg"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs10eM7e0H5IOfFIE3yF6VUArUQh9XqaBJTEjmv-IMZsdoH7E4
+                        height=99px width=99px></div>
+                <label for="price"></label>
+                <form name="cheep">
+                    Amount K.I.A:<br>
+                    <input type="number" name="quantity" min="0" max="100" placeholder="0">
+                </form>
+            </div>
+
+
+        </div>
+        <div class="invoice" id="invoice">
+            <div class="badType">
+                <span>Baddie type</span>
+                <ul id="Baddies">
+                    <li>Goomba</li>
+                    <li>Bob-Bombs</li>
+                    <li>Cheep</li>
+                </ul>
+            </div>
+            <div class="amt">
+                <div class="amtKilled">
+                    <span>Amount Killed</span>
+                    <ul id="Amount Killed">
+                        <li id="amtKia"></li>
+                        <li id="amtKia"></li>
+                        <li id="amtKia"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price">
+                <div class="pricePer">
+                    <span>Bounty</span>
+                    <ul id="Price Per Kill">
+                        <li>$5</li>
+                        <li>$7</li>
+                        <li>$11</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="totals">
+                <div class="totalAll">
+                    <span>Total</span>
+                    <ul id="TOTALS">
+                        <li id="subtotal"></li>
+                        <li id="total"></li>
+                    </ul>
+
+                    <button id="whatever" name="button" type="submit" value="submit-true">
+                        submit
+                    </button>
+                </div>
+    </main>   
+    <footer>
+        <div class="footLeft">
+            <div class="mailingTitle">Contact us at our email</div>
+            <div class="address"><a href="mailto:issa_me_mario@mario.com">Mario and Luigi Pipe Company</a></div>
+        </div>
+        <div class="footRight">
+            <div class="contactTitle">or send us Some Powerups to:</div>
+            <div class="contactBlock">
+                1932 Sw Rainbow Road
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
