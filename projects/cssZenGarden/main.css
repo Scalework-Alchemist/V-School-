@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+
+}
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    margin:25px;
+
+
+}
+header{
+    background-color: green;
+    height:30vh;
+}
+main{
+    background-color: white;
+    grid-template-rows: auto;
+}
+.first{
+    background-color: white;
+}
+.htmlCssDownload{
+    background-color: white;
+}
+.road{
+    background-color: white;
+}
+.soWhat{
+    background-color: white;
+}
+.participation{
+    background-color: greenyellow;
+}
+.benifits{
+    background-color: greenyellow;
+}
+.requirments{
+    background-color: white;
+}
+
+
+
+aside{
+    background-color: antiquewhite;
+    display: grid;
+    grid-gap:inherit;
+    grid-row:4/5;
+}
+.shoutOutBoard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: ;
+    background-color: lightgrey;
+}
+.card{
+    display: flex;
+}
+.resourcesBoard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: greenyellow;
+}
+footer{
+    display: grid;
+    background-color: green;
+    grid-template-rows: 2fr 1fr;
+}
+.footerBanner{
+
+}
+.social{
+    display: grid;
+    grid-template-columns: (5, 1fr);
+}
