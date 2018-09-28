@@ -1,0 +1,66 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+    
+} 
+body{
+margin: 2%;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    
+    
+}
+.formHolder > div {
+
+
+}
+.formHolder{
+    display: grid;
+    color:olivedrab;
+    background-color:tan;
+    margin: 0;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5%;
+    
+
+}
+.formOne {
+
+  }
+  .formTwo { 
+
+  }
+  .formThree {
+
+  }
+.btn{
+    background: firebrick;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, .2),
+        rgba(0, 0, 0, .2) 30%,
+        rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.btn:hover{
+    background: red;
+}
+
+.newTaskContainer{
+    background-color: bisque;
+    border-radius: 25px;
+    padding:2px;
+}
+.newTask{
+    padding:12px;
+   
+}

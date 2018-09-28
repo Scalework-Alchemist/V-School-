@@ -7,17 +7,19 @@
 .container{
     display: grid;
     grid-template-rows: auto;
-    margin:25px;
-
-
 }
 header{
-    background-color: green;
     height:30vh;
+}
+.headTop{
+    background-image: url(../resources/enso.svg) ,url(../resources/gridlines-opaque.png) , url(../resources/huntington.jpg);
+
+
+    
+    
 }
 main{
     background-color: white;
-    grid-template-rows: auto;
 }
 .first{
     background-color: white;
@@ -40,8 +42,9 @@ main{
 .requirments{
     background-color: white;
 }
-
-
+.contents{
+    margin:30px;
+}
 
 aside{
     background-color: antiquewhite;
@@ -68,6 +71,7 @@ footer{
     background-color: green;
     grid-template-rows: 2fr 1fr;
 }
+
 .footerBanner{
 
 }

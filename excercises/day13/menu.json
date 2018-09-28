@@ -1,0 +1,142 @@
+{
+    "appitizers":[
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        },
+        {
+            "name":"calimari",
+            "ingidents":[
+                "pickles",
+                "jelly",
+                "oil"
+            ],
+            "discription":"leet meal"
+        },
+        {
+            "name":"rocky road oysters",
+            "ingidents":[
+                "buffalo dick",
+                "buffalo mayo",
+                "buffalo bill"
+            ],
+            "discription":"mouthful"
+        }
+    ],
+    "colds":[
+        {
+            "name":"cold dogs",
+            "ingidents":[
+                "cold hot dog",
+                "soggy bread"
+            ],
+            "discription":"it aint so good"
+        },
+        {
+            "name":"gispaco",
+            "ingidents":[
+                "tomatos",
+                "nothing good",
+                "italians"
+            ],
+            "discription":"cold soup"
+        },
+        {
+            "name":"fried ice",
+            "ingidents":[
+                "DiHydrogen MonOxide"
+            ],
+            "discription":"ice water in a basket"
+        }
+    ],
+    "hots":[
+        {
+            "name":"camel hoofs",
+            "ingidents":[
+                "feet"
+            ],
+            "discription":"oven baked feet"
+        },
+        {
+            "name":"rancho del diablo",
+            "ingidents":[
+                "very hot sauce",
+                "cold hot dog",
+                "feet"
+            ],
+            "discription":"death follows"
+        },
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        }
+    ],
+    "desserts":[
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        },
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        },
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        }
+    ],
+    "drinks":[
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        },
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        },
+        {
+            "name":"fried pickles",
+            "ingidents":[
+                "pickles",
+                "jam",
+                "oil"
+            ],
+            "discription":"pickles fried in shit"
+        }
+    ]
+}

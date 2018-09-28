@@ -1,22 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>ToDo Machine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    
+
 </head>
+
 <body>
-<div class="container">
-    <form action="">
+    <div id ="wrapper" class="container">
+        <form class ="formHolder" action="">
+            <div class='formOne'>
+                <label for="Title">Title:</label>
+                <input type="text" id="Title">
+            </div>
+            <div class='formTwo'>
+                <label for="price">Price:</label>
+                <input class id="price" type='number'>
+            </div>
+            <div class='FormThree'>
+                <label for="description">Description:</label>
+                <textarea id="description" cols="50" rows="10"></textarea>   
+            </div>
+            <div class='formFour'><button class='btn' id="Btn" type="submit">Add New Task</button></div>
+            
+        </form>
 
+        <div id ="miniWrap" class="newTaskContainer">
+            <div class="newTask">    <h1>title</h1>
+                <main> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, itaque.
+                </main>
+                <footer>Lorem, ipsum.</footer>
+            </div>
+            <div class="newTask">    <h1>title</h1>
+                <main> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, itaque.
+                </main>
+                <footer>Lorem, ipsum.</footer>
+                </div>
+            <div class="newTask">    <h1>title</h1>
+                <main> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, itaque.
+                </main>
+                <footer>Lorem, ipsum.</footer>
+                </div>
 
-
-    </form>
+        </div>
 </div>
 
-    <script src="main.js"></script> 
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,25 @@
+*{
+
+}
+body{
+    margin: 0;
+}
+.btnHolder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 200px;
+    
+}
+.btn{
+    
+    background-color: red;
+    border-radius: 25px;
+    background-image: linear-gradient(to top left,
+        rgba(0, 0, 0, .2),
+        rgba(0, 0, 0, .2) 30%,
+        rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}

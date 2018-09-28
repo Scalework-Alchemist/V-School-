@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.parent {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px 1px;
+    grid-template-areas: "navBar Container Container Container Container" "navBar Container Container Container Container" "navBar Container Container Container Container" "navBar footer footer footer footer";
+  }
+  
+  .navBar {
+    display: grid;
+    grid-area: navBar;
+    grid-template-columns: ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1px 1px;
+    grid-template-areas: "tables" "menu" "openOrders";
+    background-color: grey;
+    text-align: center;
+    
+  }
+    .navBar > div{
+      border: 4px green ridge;
+  }
+  
+  .footer {
+       grid-area: footer;
+       display: flex;
+       flex-wrap: nowrap;
+       background-color: azure;
+       border:4px black ridge;
+       overflow-x: auto;
+       
+}
+    .invoices{
+        flex:0 0 auto;
+        background-color: beige;
+        border: yellow solid 2px;
+        height: 100%;
+        margin: 0;
+        padding: 1px;
+        width: 24.5%;
+
+}
+  
+  .Container {
+       grid-area: Container; 
+       background-color: cadetblue;
+       border: 4px red ridge;
+       overflow:auto;
+}
+    .Container *{
+    border: black 4px solid;
+}
+
