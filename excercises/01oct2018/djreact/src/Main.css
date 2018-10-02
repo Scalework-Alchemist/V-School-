@@ -1,0 +1,53 @@
+
+
+main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one one two two" "three three four four" "bone btwo bthree bfour" "bfive bsix bseven beight";
+  }
+  main > div {
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    text-align: center;
+    justify-self: center;
+}
+  
+  .bone { grid-area: bone; }
+  
+  .btwo { grid-area: btwo; }
+  
+  .bthree { grid-area: bthree; }
+  
+  .bfour { grid-area: bfour; }
+  .bfive { grid-area: bfive; }
+  .bsix { grid-area: bsix; }
+  .bseven { grid-area: bseven; }
+  .beight { grid-area: beight; }
+  
+.one {
+    grid-area: one; 
+    background-color: aqua;
+}
+.two {
+    grid-area: two; 
+    background-color: blueviolet;
+}
+
+.three {
+  grid-area: three; 
+  background-color: palegreen;
+}
+
+.four { 
+ grid-area: four; 
+ background-color:hotpink;
+}
+button{
+    background-color:orange;
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+}
