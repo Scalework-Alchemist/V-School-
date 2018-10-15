@@ -1,0 +1,28 @@
+.header{
+    background-color: #f2f0edd2;
+    grid-area: hd;
+    text-align: center;
+    margin-bottom: 2px;
+    font: italic bold 2em Georgia, "Times New Roman", Times, serif;
+    box-shadow: 2px 2px 2px rgb(0, 0 ,0 ,0.5);
+    z-index: 100;
+}
+
+.navi{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-areas: "left center right";
+    text-align: center;
+
+}
+    .navi--item--1{
+        grid-area: left;
+        
+    }
+    .navi--item--2{
+        grid-area: center;
+    }
+    .navi--item--3{
+        grid-area: right;
+    }

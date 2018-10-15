@@ -1,0 +1,29 @@
+.Toggle--button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.Toggle--button:focus{
+    outline:none;
+}
+
+.toggle--button--x{ 
+    width:50px;
+    height: 50px; 
+    align-content: center;
+}
+.toggle--button--x h1:hover{
+                        color:limegreen;
+                        cursor: pointer;
+}
+.toggle--button--x h1:active{
+                       color:goldenrod;
+                       cursor: context-menu;
+                   }

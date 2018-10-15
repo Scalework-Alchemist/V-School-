@@ -1,0 +1,19 @@
+.Footer{
+    grid-area: footer;
+    background-color:#2d2938;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+   
+}
+.Footer{
+    line-height: 60px !important;
+    font: italic bold .2em/5px Georgia, "Times New Roman", Times, serif;
+  }
+  h4{
+      color: goldenrod;
+  }

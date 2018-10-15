@@ -13,6 +13,8 @@ main {
     border-radius: 50%;
     text-align: center;
     justify-self: center;
+    padding: 10%
+
 }
   
   .bone { grid-area: bone; }

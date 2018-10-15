@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 
- 
+///alchemist notes
+// the standerd view for this app is mobile iphone 8+
+//havent made it responsive yet
 //components
 class Square extends Component {
     constructor(){
@@ -17,6 +19,12 @@ class Square extends Component {
           },
           style4: {
             backgroundColor: ""
+          },
+          style5: {
+              backgroundColor:""
+          },
+          style6: {
+              backgroundColor:""
           }
         }
         this.handleBlack= this.handleBlack.bind(this);
@@ -27,6 +35,10 @@ class Square extends Component {
         this.handleSix = this.handleSix.bind(this);
         this.handleSeven = this.handleSeven.bind(this);
         this.handle8 = this.handle8.bind(this);
+        this.handleHidden = this.handleHidden.bind(this);
+        this.handleHidden1 = this.handleHidden1.bind(this);
+        this.handleHidden2 = this.handleHidden2.bind(this);
+        this.handleHidden3 = this.handleHidden3.bind(this);
         
 
     }
@@ -69,6 +81,10 @@ class Square extends Component {
             style3 :{
                 backgroundColor:"blue",
                 "transition": "all 1.5s linear"
+            },
+            style5 :{
+                backgroundColor:"orange",
+                "transition": "all 1.5s linear"
             }
         }))
     }
@@ -76,6 +92,10 @@ class Square extends Component {
         this.setState(prevState=>({
             style4 :{
                 backgroundColor:"blue",
+                "transition": "all 1.5s linear"
+            },
+            style5 :{
+                backgroundColor:"red",
                 "transition": "all 1.5s linear"
             }
         }))
@@ -193,27 +213,59 @@ class Square extends Component {
             }
         }))
     }
+    handleHidden() {
+        this.setState(prevState=>({
+            style6 :{
+                "transition": "all .7s linear",
+                "backgroundColor":"blanchedalmond"
+            }
+        }))
+    }
+    handleHidden1() {
+        this.setState(prevState=>({
+            style6 :{
+                "transition": "all .7s linear",
+                "backgroundColor":"white"
+            }
+        }))
+    }
+    handleHidden2() {
+        this.setState(prevState=>({
+            style6 :{
+                "transition": "all .7s linear",
+                "backgroundColor":"#EAE6DA"
+            }
+        }))
+    }
+    handleHidden3() {
+        this.setState(prevState=>({
+            style6 :{
+                "transition": "all .7s linear",
+                "backgroundColor":"salmon"
+            }
+        }))
+    }
 
 
 
 
        //const{background} = this.state
     render(){
-        const{style1,style2,style3,style4} = this.state
+        const{style1,style2,style3,style4,style5,style6} = this.state
         return(
-            <main>
-                <div className="one"  style={style1}></div>
-                <div className="two" style={style2} ></div>
-                <div className="three" style={style3} ></div>
-                <div className="four" style={style4} > </div>
-                <button className="bone" onClick={this.handleBlack}>Johnny Cash</button>
-                <button className="btwo" onClick={this.handlePurple}>Purple Rain</button>
-                <button className="bthree" onClick={this.handleBlueLeft}>Blu</button>
-                <button className="bfour" onClick={this.handleBlueRight}>Blu Two</button>
-                <button className="bfive" onClick={this.handleFive}>Biggie Smalls</button>
-                <button className='bsix' onClick={this.handleSix}>Closer</button>
-                <button className="bseven" onClick={this.handleSeven}>Im Different</button>
-                <button className='beight' onClick={this.handle8}>CoCo</button>
+            <main style={style6}>
+                <div className="one"  style={style1} onClick={this.handleHidden}>im</div>
+                <div className="two" style={style2} onClick={this.handleHidden1}>best</div>
+                <div className="three" style={style3} onClick={this.handleHidden2}>on</div>
+                <div className="four" style={style4} onClick={this.handleHidden3}>iphone8+</div>
+                <button className="bone"  style={style5} onClick={this.handleBlack}>Johnny Cash</button>
+                <button className="btwo"  style={style5} onClick={this.handlePurple}>Purple Rain</button>
+                <button className="bthree"  style={style5} onClick={this.handleBlueLeft}>Blu</button>
+                <button className="bfour"  style={style5} onClick={this.handleBlueRight}>Blu Two</button>
+                <button className="bfive"  style={style5} onClick={this.handleFive}>Biggie Smalls</button>
+                <button className='bsix'  style={style5} onClick={this.handleSix}>Closer</button>
+                <button className="bseven"  style={style5} onClick={this.handleSeven}>Im Different</button>
+                <button className='beight' style={style5} onClick={this.handle8}>CoCo</button>
                 
                 
     
