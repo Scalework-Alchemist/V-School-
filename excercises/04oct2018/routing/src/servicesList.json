@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "name": "Brand Assesment",
+        "price": 200,
+        "description":"We methodically go thru your brand structure and design a way for you to maximize your client acceptance of it essence"
+    },
+    {
+        "id": "1",
+        "name": "this thing we do",
+        "price": 5000,
+        "description":"we move your shit from her to everywhere"
+    },
+    {
+        "id": "2",
+        "name": "whack that bussy",
+        "price": 4000000,
+        "description":"we will eliminate any competitor by any means possible keeping your business growing all while building your respect"
+    },
+    {
+        "id": "3",
+        "name": "what the func?",
+        "price": 4530,
+        "description":"fix your functional data lorem lorem lorem" 
+    }
+]

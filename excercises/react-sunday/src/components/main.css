@@ -1,0 +1,19 @@
+.list-labels {
+    display: flex;
+}
+
+.list-labels p {
+    width: 25%;
+}
+
+.transaction-wrapper {
+    display: flex;
+}
+
+.edit-form {
+    display: flex;
+}
+
+.edit-form * {
+    width: 25%;
+}

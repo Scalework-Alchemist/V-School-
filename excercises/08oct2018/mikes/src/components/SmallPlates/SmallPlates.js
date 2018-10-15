@@ -1,13 +1,11 @@
 import React from 'react'
 
 
-import '../Main/Main.css';
+import './Main.css';
 
 const SmallPlates = props => (
-        <div className="Main">
-        const Main = props => (
-
-        )
+        <div className="main">
+        <h1>hello</h1>
 
         </div>
     

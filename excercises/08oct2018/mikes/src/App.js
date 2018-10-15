@@ -7,7 +7,7 @@ import Main from './components/Main/Main';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Backdrop from './components/Backdrop/Backdrop';
-// import Loader from './components/Loader/Loader
+import Loader from './components/Loader/Loader'
 import SmallPlates from './components/SmallPlates/SmallPlates'
 
 
@@ -45,14 +45,14 @@ class App extends Component {
 
                 <Switch>
                     
-                    <Route path="/" component={Main}/>
+                    <Route exact path="/" component={Main}/>
                     <Route path="/Small_Plates" component={SmallPlates}/>
                     </Switch>
                 
                 <Sidebar show={this.state.sidebarOpen}/>
                 {backdrop}
                 <Footer/>
-                {/* <Loader/> */}
+                <Loader/>
             </div>
         )
     }

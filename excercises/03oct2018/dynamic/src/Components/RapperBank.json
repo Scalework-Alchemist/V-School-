@@ -1,0 +1,35 @@
+[  
+    {  
+       "name":"Asap Ferg",
+       "albums":[  
+          "Trap Lord",
+          "Always Strive and Prosper",
+          "Still Striving"
+       ],
+       "favFood":"Chopped Cheese",
+       "img":"https://ichef.bbci.co.uk/images/ic/960x540/p01crt10.jpg",
+       "id":"1"
+
+    },
+    {  
+       "name":"Childish Gambino",
+       "albums":[  
+          "Camp",
+          "Because of the Internet",
+          "Awaken, My Love"
+       ],
+       "favFood":"Lemon-Pepper Wings(WET!)",
+       "id":"2"
+    },
+    {  
+       "name":"2 Chainz (AKA Tity Boi)",
+       "albums":[  
+          "Trap Lord",
+          "Always Strive and Prosper",
+          "Still Striving"
+       ],
+       "favFood":"23-Karat Gold-Dusted Popcorn "
+       ,
+       "id":"3"
+    }
+ ]

@@ -1,38 +1,30 @@
 import React, { Component } from 'react'
-import Axios from 'axios'
+import axios from 'axios'
 import Header from '../Header/Header';
+const unirest = require('unirest');
 
 
 
 
-
-
-// export default class Loader extends Component {
-//   state = {
-  
-//   }
-
-
-//   const rapidApiAxios =  new axios(
-//     {
-//       'cy-bar_5bc0cf26e4b02d6cfa6a9f3e':
-//       '/connect/auth/cy-bar_5bc0cf26e4b02d6cfa6a9f3e'
-//     }
-//     )
-//   const rapidApiHeaders = (
-//     {
-//       "X-Mashape-Key"
-//       : "d4EtM4j2OsmshKo0N2HxygxHCTQcp16QWM1jsnX4d7BzzWSvAN",
-//       "X-Mashape-Host":
-//        "spoonacular-recipe-food-nutrition-v1.p.mashape.com"
-//     }
-//   )
-
+export default class Loader extends Component {
+  componentDidMount() {
+    unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/search?diet=vegetarian&excludeIngredients=coconut&intolerances=egg%2C+gluten&number=10&offset=0&query=burger&type=main+course")
+    .header("X-Mashape-Key", "ZxyamyfX5XmshMOdvuDZLjjA7PvTp1o9ngQjsn21LtXRIRQWQn")
+    .header("X-Mashape-Host", "spoonacular-recipe-food-nutrition-v1.p.mashape.com")
+    .end(function (result) {
+      console.log(result.status, result.headers, result.body );
+    });
+}
+render(){
+    return(
+        <div/>
+    )
+}
 //   return(
 //     rapidApiAxios,
 //     rapidApiHeaders
 //   )
-// }
+}
 
 
 
