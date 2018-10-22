@@ -1,9 +1,7 @@
 .Toggle--button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    border: 0;
+
+    /* padding: 10px; */
+
     height: 50px;
     width: 50px;
     background: transparent;
@@ -15,9 +13,8 @@
 }
 
 .toggle--button--x{ 
-    width:50px;
-    height: 50px; 
-    align-content: center;
+ 
+    
 }
 .toggle--button--x h1:hover{
                         color:limegreen;

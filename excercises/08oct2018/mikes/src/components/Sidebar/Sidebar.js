@@ -2,47 +2,36 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import './Sidebar.css'
+import Loader from '../Loader/Loader';
+
 
 const Sidebar = props => {
+ 
+  const handleSelect = (e)=>{
+    // console.log(e.target.value.toString())
+    props.getFlavor(e.target.value)
+  }
+
   let sidebarClasses = 'aside';
   if (props.show) {
-    sidebarClasses ='aside open';
+      sidebarClasses ='aside open';
     
   }
+
   return(
   <nav className={sidebarClasses} >
         <h1>Menu</h1>
-        <ul>
-            <li><a href="">Profile</a></li>
-            <Link to="/Small_Plates">Small Plates</Link>
-            <li><a href="">Burgers and Sandwichs</a></li>
-            <li><a href="">Sweets</a></li>
-            <li><a href="">Drinks</a></li>
-        </ul>
+        <form className="dropdown_menu">
+        <label >
+          Flavor:
+          <select name="flavorSelect" onChange={handleSelect}>
+            <Loader/>
+          </select>
+        </label>
+        </form>
+        
   </nav>  
   )
 };
 
 export default Sidebar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export default function Sidebar(){
-//     return(
-//         <div className='aside'>
-//         <h1>Sidebar</h1>
-//             <p>this is a closing drawer</p>
-//             <div className="aside--background"></div>
-//         </div>
-//     )
-// }

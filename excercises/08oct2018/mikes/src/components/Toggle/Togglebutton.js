@@ -2,15 +2,15 @@ import React from 'react'
 
 //components
 import './Togglebutton.css';
-  
+import Button from '@material-ui/core/Button';
 
 
 const Togglebutton = props => (
-  <button className="Toggle--button" onClick={props.click}>
+  <Button className="Toggle--button" onClick={props.click} variant="contained" color="inherit">
     <div className="toggle--button--x">
       <h1>X</h1>
       </div>
-  </button>
+  </Button>
   
 );
 
