@@ -6,7 +6,7 @@ const app = express();
 
 // middleware
 app.use(express.json());
-app.use("/api/bountylist", require("./routes/bountylist"));
+app.use("/api/items", require("./routes/items"));
 
 app.use((err, req, res, next) => {
     res.send({ message: err.message })

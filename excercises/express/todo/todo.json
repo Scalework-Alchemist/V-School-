@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Finish this server!",
+        "description": "look mom i made this",
+        "imageUrl": "https://images.halloweencostumes.com/products/16756/1-1/crash-test-dummy-costume.jpg",
+        "completed": false ,
+        "id": "2018"
+    },
+    {
+        "name": "taask!",
+        "description": "look mom i made this",
+        "imageUrl": "https://images.halloweencostumes.com/products/16756/1-2/crash-test-dummy-costume.jpg",
+        "completed": false ,
+        "id": "2019"
+    },
+    {
+        "name": "task3r!",
+        "description": "look mom i made this",
+        "imageUrl": "https://images.halloweencostumes.com/products/16756/1-3/crash-test-dummy-costume.jpg",
+        "completed": false ,
+        "id": "2020"
+    }
+]
