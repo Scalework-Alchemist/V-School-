@@ -12,7 +12,12 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run Build",
     "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.4"
   },
   "keywords": [],
   "author": "",

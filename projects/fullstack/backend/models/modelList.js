@@ -1,13 +1,16 @@
+'use strict';
+
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const modelSchema = new Schema({
-  author: String,
+  id: Number,
   name: String,
-  genre: String,
-  
-  upvote: Boolean,
-  downvote: Boolean
+  comics: Object,
+  events: Object,
+  description: String,
+  image: String,
+  urls: String
 });
 
 module.exports = mongoose.model("Model", modelSchema);

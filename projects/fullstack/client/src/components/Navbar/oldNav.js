@@ -10,6 +10,8 @@ import {
 } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 import MenuIcon from "@material-ui/icons/Menu";
+import HomeIcon from "@material-ui/icons/Home";
+import { Link } from "react-router-dom";
 
 const styles = {
   root: {
@@ -27,14 +29,15 @@ const Navbar = props => {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" color="default">
         <Toolbar>
           <IconButton
             className={classes.menuButton}
-            color="inherit"
+            color="secondary"
             aria-label="Menu"
+            component={Link} to="/"
           >
-            <MenuIcon />
+            <MenuIcon /> 
           </IconButton>
           <Typography
             variant="display2"
@@ -43,7 +46,9 @@ const Navbar = props => {
           >
             Welcome to ßookSpace
           </Typography>
-          <Button color="inherit">Login</Button>
+          <IconButton component={Link} to="/characters" color="secondary">
+            <HomeIcon >Login</HomeIcon>
+          </IconButton>
         </Toolbar>
       </AppBar>
     </div>
